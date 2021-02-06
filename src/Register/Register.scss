@@ -1,0 +1,34 @@
+
+.register-header {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.register-error {
+    color: red;
+    transition: all 1s ease-in-out; 
+}
+
+button {
+    width: 100%;
+}
+
+.register-container {
+    margin-top: 120px;
+    margin-bottom: 30px;
+    background-color: cornsilk;
+    border-radius: 30px;
+    max-width: 400px;
+    min-width: 300px;
+    width: 80%;
+    border: 3px solid black;
+    box-shadow: 5px 5px 20px 5px;
+}
+
+.form-control {
+    background-color: #eeeeee;
+    &:focus {
+        background-color: #ffffff;
+    }
+}
+

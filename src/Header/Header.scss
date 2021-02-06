@@ -1,0 +1,23 @@
+@import '../fonts.css';
+
+.Header {
+    text-align: center;
+    // background: #dddddd;
+    position: fixed;
+    width: 100%;
+    top: -2px;
+    padding-top: 2px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-image:url("../background/white-wood-bg.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+h1 {
+    font-family: 'Cookie', 'Satisfy', 'Dancing Script', 'Pacifico', cursive, sans-serif;
+    font-size: 4em;
+    text-shadow: 1px 1px rgb(170, 170, 170);
+}
+

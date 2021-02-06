@@ -1,10 +1,15 @@
 
-import './App.css';
+import './App.scss';
+import Header from './Header/Header.js';
+import Register from './Register/Register';
 
 function App() {
   return (
     <div className="App">
-      <h1>New project - Instagram</h1>
+      <Header></Header>
+      <div className="container">
+        <Register></Register>
+      </div>
     </div>
   );
 }
